@@ -1,0 +1,66 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.card {
+  margin: 15px 10px;
+  width: 300px;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 10%;
+}
+.style-font {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.card-img-top {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+.deleteBtn {
+  background-color: brown;
+  border-radius: 20px 20px;
+  box-shadow: 5px 5px 10px;
+  transition: 0.2s;
+}
+.card-img-top {
+  border-radius: 10%;
+}
+.deleteBtn:hover {
+  background-color: rgb(142, 37, 37);
+}
+.deleteBtn:active {
+  transform: translateY(5px);
+}
+.editBtn {
+  background-color: blue;
+  border-radius: 20px 20px;
+  box-shadow: 5px 5px 10px;
+  transition: 0.2s;
+}
+.editBtn:hover {
+  background-color: rgb(3, 3, 201);
+}
+.editBtn:active {
+  transform: translateY(5px);
+}
+.navbar {
+  background-color: rgb(71, 71, 221);
+}
+.a-color-aliceblue {
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.modal-body input {
+  border-radius: 25px;
+}
+.btn {
+  border-radius: 20px 20px;
+  transition: 0.2s;
+}
+.btn:active {
+  transform: translateY(5px);
+}
